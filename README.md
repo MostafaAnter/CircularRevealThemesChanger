@@ -29,6 +29,10 @@ Step 1. Add the JitPack repository to your build file Add it in your root `build
 			maven { url 'https://jitpack.io' }
 		}
 	}
+recently you can find repositories block inside `settings.gradle` file so add this line under repositories block
+
+    maven { url 'https://jitpack.io' }
+   
     
 Step 2. Add the dependency
 
