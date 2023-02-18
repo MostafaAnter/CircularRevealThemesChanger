@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CircularRevealThemesChanger" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- default for buttons -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <!-- default for status bar -->
+        <item name="colorPrimaryVariant">@color/color_primary_dark</item>
+        <!-- default for text on buttons -->
+        <item name="colorOnPrimary">@color/color_black_at_day_white_in_night</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.CircularRevealThemesChanger.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CircularRevealThemesChanger.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CircularRevealThemesChanger.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

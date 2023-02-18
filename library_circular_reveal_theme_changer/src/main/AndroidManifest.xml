@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anter.library_circular_reveal_theme_changer">
+    <application>
+    <activity
+        android:name=".feature_screen_shot.ScreenshotActivity"
+        android:launchMode="singleTop"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="com.anter.library_circular_reveal_theme_changer.open" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    </application>
+
+</manifest>

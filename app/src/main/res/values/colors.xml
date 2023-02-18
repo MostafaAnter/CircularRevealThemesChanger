@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_accent">#DB006E</color>
+
+    <color name="color_primary">#FFFFFF</color>
+
+    <color name="color_primary_dark">#FFFFFF</color>
+
+    <color name="color_text">#FFFFFFFF</color>
+
+    <color name="color_black_at_day_white_in_night">#000000</color>
+
+</resources>
